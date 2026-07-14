@@ -1,3 +1,5 @@
+; Test ROM for Apple II machines -- sets text mode, beeps the speaker then fills all RAM. Each page of RAM is filled with the byte that is the page number. This should fill the screen with inverse D E and F (characters) 
+; --- Apple II soft switches ---
 TXTSET   = $C051
 MIXCLR   = $C052
 LOWSCR   = $C054
